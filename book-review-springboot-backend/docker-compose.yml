@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  postgresqldb:
+    image: postgres
+    container_name: bookreview
+    environment:
+      POSTGRES_DB: bookreviewdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+

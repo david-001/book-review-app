@@ -1,0 +1,15 @@
+.container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stars{
+  display: flex;
+  flex-direction: row;
+}
+
+.textbox {
+  height: 200px;
+  width: 500px;
+}
